@@ -1,0 +1,340 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: floralwhite;
+  height: 80px;
+  display: flex;
+  border-bottom: 3px solid #FF890C;
+
+}
+
+.logo {
+  height: 130px;
+  margin-right: 100px;
+  align-self: center;
+
+}
+
+li {
+  text-decoration: none;
+  text-align: center;
+  list-style: none;
+  margin-top: 30px;
+  margin-left: 1px;
+  /*border: 5px solid blue;*/
+  text-align: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  text-align: center;
+  padding: 20px;
+  /* border: 3px solid red;*/
+  align-items: center;
+  margin-left: 0.5px;
+
+}
+
+#number {
+  background-color: orange;
+  color: white;
+  border: 1px solid white;
+  margin: 20px;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 20px;
+  align-self: center;
+  margin-left: 100px;
+}
+
+.div1 {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  align-self: center;
+  margin-bottom: 0;
+
+}
+
+h2 {
+
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  color: white;
+  font-size: 30px;
+  transform: translate(-50%, -50%);
+}
+
+.banner {
+  width: 100%;
+  height: 30%;
+
+}
+
+.div1 p {
+  position: absolute;
+  top: 63%;
+  left: 70%;
+  color: white;
+  align-self: center;
+  text-align: center;
+  font-size: 13px;
+  transform: translate(-50%, -50%);
+
+}
+
+.btn {
+  background-color: orange;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  position: absolute;
+  top: 75%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  align-self: center;
+}
+
+.div2 {
+  box-shadow: 0px 1px 10px 0px #5F5F67;
+  text-align: center;
+  height: 350px;
+  position: relative;
+
+}
+
+.div2 h3 {
+  margin-top: 5px;
+  font-size: 25px;
+  padding-top: 20px;
+  position: relative;
+}
+
+.box1 {
+  display: flex
+}
+
+.salad {
+  cursor: pointer;
+  height: 70px;
+  width: 250px;
+  margin-left: 50px;
+  margin-top: 30px;
+  align-self: center;
+
+}
+
+.salad::hover {
+  background-color: red;
+}
+
+.salad h4 {
+  margin-top: -50px;
+  margin-left: -30px;
+
+}
+
+.salad p {
+  color: #585858;
+  font-size: 13px;
+  margin-left: 70px;
+
+}
+
+.salad img {
+  width: 50px;
+  margin-right: 170px;
+  margin-top: 10px;
+}
+
+.cake {
+
+  height: 70px;
+  width: 250px;
+  margin-left: 50px;
+  margin-top: 30px;
+
+
+}
+
+.cake h4 {
+  margin-top: -50px;
+  margin-left: -30px;
+
+}
+
+.cake p {
+  color: #585858;
+  font-size: 13px;
+  margin-left: 70px;
+}
+
+.cake img {
+  width: 50px;
+  margin-right: 170px;
+  margin-top: 10px;
+}
+
+.burger {
+
+  height: 70px;
+  width: 250px;
+  margin-left: 50px;
+  margin-top: 30px;
+
+
+}
+
+.burger h4 {
+  margin-top: -50px;
+  margin-left: -30px;
+
+}
+
+.burger p {
+  color: #585858;
+  font-size: 13px;
+  margin-left: 70px;
+}
+
+.burger img {
+  width: 50px;
+  margin-right: 170px;
+  margin-top: 10px;
+}
+
+.box2 {
+  display: flex;
+}
+
+.icecream {
+
+  height: 70px;
+  width: 250px;
+  margin-left: 50px;
+  margin-top: 30px;
+
+
+}
+
+.icecream h4 {
+  margin-top: -50px;
+  margin-left: -30px;
+
+}
+
+.icecream p {
+  color: #585858;
+  font-size: 13px;
+  margin-left: 70px;
+}
+
+.icecream img {
+  width: 50px;
+  margin-right: 170px;
+  margin-top: 10px;
+}
+
+.pasta {
+
+  height: 70px;
+  width: 250px;
+  margin-left: 50px;
+  margin-top: 30px;
+
+
+}
+
+.pasta h4 {
+  margin-top: -50px;
+  margin-left: -30px;
+
+}
+
+.pasta p {
+  color: #585858;
+  font-size: 13px;
+  margin-left: 70px;
+}
+
+.pasta img {
+  width: 50px;
+  margin-right: 170px;
+  margin-top: 10px;
+}
+
+.cookies {
+
+  height: 70px;
+  width: 250px;
+  margin-left: 50px;
+  margin-top: 30px;
+
+
+}
+
+.cookies h4 {
+  margin-top: -50px;
+  margin-left: -30px;
+
+}
+
+.cookies p {
+  color: #585858;
+  font-size: 13px;
+  margin-left: 70px;
+}
+
+.cookies img {
+  width: 50px;
+  margin-right: 170px;
+  margin-top: 10px;
+}
+
+.btn2 {
+  background-color: orange;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  align-self: center;
+  margin-top: 60px;
+}
+
+.div3 {
+  align-items: center;
+  box-shadow: 0px 1px 10px 0px #5F5F67;
+  text-align: center;
+}
+
+.div3 h3 {
+  padding-top: 30px;
+  font-size: 30px;
+}
+
+.div3 img {
+  padding-top: 30px;
+  width: 85%;
+  height: 25%;
+  padding-bottom: 30px;
+}
